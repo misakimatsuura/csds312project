@@ -56,7 +56,7 @@ def main():
 
     # Read only 'text' column
 
-    df = pd.read_csv('datasets/NeutralPolitics_data.csv', usecols=['Body'], engine='python')
+    df = pd.read_csv('../data/NeutralPolitics_data.csv', usecols=['Body'], engine='python')
 
 
 

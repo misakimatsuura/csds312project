@@ -32,7 +32,7 @@ def main():
 
 
 
-    df = pd.read_csv('datasets/NeutralPolitics_data.csv', engine='python')
+    df = pd.read_csv('../data/NeutralPolitics_data.csv', engine='python')
 
     all_text = ' '.join(df['Body'].dropna().tolist())
 
